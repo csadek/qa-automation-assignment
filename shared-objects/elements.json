@@ -1,0 +1,38 @@
+{
+  "categoryGroceries": {
+    "locator": "css",
+    "selector": "option[value^='1']"
+  },
+  "categoryTravel": {
+    "locator": "css",
+    "selector": "option[value^='6']"
+  },
+  "categoryEntertainment": {
+    "locator": "css",
+    "selector": "option[value^='3']"
+  },
+  "categoryIncome": {
+    "locator": "css",
+    "selector": "option[value^='15']"
+  },
+  "descriptionInputField": {
+    "locator": "name",
+    "selector": "description"
+  },
+  "valueInputField": {
+    "locator": "name",
+    "selector": "value"
+  },
+  "addItemButton": {
+    "locator": "css",
+    "selector": "button[type^='submit']"
+  },
+  "budgetTableCells": {
+    "locator": "className",
+    "selector": "components-BudgetGridRow-style-cellContent"
+  },
+  "workingBalanceField": {
+    "locator": "className",
+    "selector": "components-Balance-style-pos"
+  }
+}

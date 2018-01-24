@@ -1,0 +1,18 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# logs
+*.log
+output.txt
+# junit reports
+*.html
+*.xml
+
+# Selenium/webdriver
+*.log
+*.png
+
+# NodeJS and NPM
+node_modules/
+
+# html reports
+reports/

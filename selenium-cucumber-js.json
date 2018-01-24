@@ -1,0 +1,9 @@
+{
+    "steps": "./step-definitions",
+    "pageObjects": "./page-objects",
+    "sharedObjects": "./shared-objects",
+    "reports": "./reports",
+    "browser": "chrome",
+    "eye_key": "Your_Api_Key",
+    "timeout": 50000
+}

@@ -1,0 +1,31 @@
+{
+  "name": "qa-automation-assignment",
+  "version": "1.0.0",
+  "description": "javascript automation project for test purpose",
+  "main": "",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js",
+    "fix": "eslint --fix ./page-objects/**  ./shared-objects/**/*.js ./step-definitions/**",
+    "lint": "eslint ./page-objects/**  ./shared-objects/**/*.js ./step-definitions/**  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csadek/qa-automation-assignment.git"
+  },
+  "author": "Christina",
+  "license": "ISC",
+  "homepage": "https://github.com/csadek/qa-automation-assignment#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "selenium-cucumber-js": "^1.5.11",
+    "autoprefixer": "^7.1.4",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "prettier": "1.6.1"
+  }
+}

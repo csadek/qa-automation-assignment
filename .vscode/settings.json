@@ -1,0 +1,25 @@
+{
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "cucumberautocomplete.steps": [
+        "step-definitions/*.js"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.syncfeatures": "features/*.feature",
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.pages": {
+        "users": "page-objects/users.storage.js",
+        "pathes": "page-objects/pathes.storage.js",
+        "main": "page-objects/main.page.js"
+    },
+    "cucumberautocomplete.stepsInvariants": true,
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/bower_components": true
+    },
+    "editor.fontSize": 20,
+    "window.zoomLevel": 1
+}
